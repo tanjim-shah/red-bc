@@ -25,6 +25,6 @@ reddit = praw.Reddit(
 )
 
 # Post to subreddit
-subreddit = reddit.subreddit("be_A_Cleaner")  # Replace with your subreddit
+subreddit = reddit.subreddit("u_be_A_Cleaner")
 subreddit.submit(title, selftext=body)
 print(f"✅ Posted to r/{subreddit.display_name}: {title}")
